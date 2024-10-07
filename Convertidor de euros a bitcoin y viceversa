@@ -1,0 +1,10 @@
+'''
+ escribir una función que permita convertir de euros a bitcoins, y otra que haga el proceso inverso.
+'''
+def euros_a_bitcoins(euros: int | float) -> int | float: 
+ convertido=((float(euros))/44471.78)
+ print(round(convertido,2))
+
+ def bitcoins_a_euros(bitcoins: int | float)->int|float:
+  convertido=((float(bitcoins))*44471.78)
+  print(round(convertido,2))
